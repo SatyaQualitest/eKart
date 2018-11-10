@@ -2,7 +2,7 @@
 
 namespace eKart.Api.Migrations
 {
-    public partial class migration_220420181630 : Migration
+    public partial class initialcreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -9,8 +9,8 @@ using eKart.Api.Model;
 namespace eKart.Api.Migrations
 {
     [DbContext(typeof(SQLServerContext))]
-    [Migration("20181109150201_migration_220420181630")]
-    partial class migration_220420181630
+    [Migration("20181110060131_initialcreate")]
+    partial class initialcreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

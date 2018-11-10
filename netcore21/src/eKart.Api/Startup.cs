@@ -29,7 +29,7 @@ namespace eKart.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IDatasourceContext, SQLServerContext>();
-            services.AddDbContext<SQLServerContext>(options => options.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=eKart;Integrated Security=True;"));
+            services.AddDbContext<SQLServerContext>(options => options.UseSqlServer(@"Server=MININT-9CDBU8I;Database=eKart;Trusted_Connection=True;ConnectRetryCount=0"));
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
